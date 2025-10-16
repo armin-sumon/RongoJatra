@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Active Menu Test - RongoJatra</title>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <style>
+        .demo-section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+        .demo-section h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .demo-section p {
+            color: #666;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="demo-section">
+            <h3>Active Menu Highlighting Demo</h3>
+            <p>This demonstrates how the active menu highlighting works:</p>
+            
+            <h4>Top Header Menu (when logged in):</h4>
+            <div class="top-header">
+                <div class="container">
+                    <ul class="tp-hd-lft">
+                        <li class="hm"><a href="#" class="active"><i class="fa fa-home"></i></a></li>
+                        <li class="prnt"><a href="#" class="active">My Profile</a></li>
+                        <li class="prnt"><a href="#">Change Password</a></li>
+                        <li class="prnt"><a href="#">My Tour History</a></li>
+                        <li class="prnt"><a href="#">Issue Tickets</a></li>
+                    </ul>
+                    <ul class="tp-hd-rgt">
+                        <li class="tol">Welcome :</li>
+                        <li class="sig">Demo User</li>
+                        <li class="sigi"><a href="#">/ Logout</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            
+            <h4>Main Navigation Menu:</h4>
+            <div class="footer-btm">
+                <div class="container">
+                    <div class="navigation">
+                        <nav class="navbar navbar-default">
+                            <div class="collapse navbar-collapse nav-wil">
+                                <nav class="cl-effect-1">
+                                    <ul class="nav navbar-nav">
+                                        <li><a href="#" class="active">Home</a></li>
+                                        <li><a href="#">Tour Packages</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms of Use</a></li>
+                                        <li><a href="#">Corporate</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Enquiry</a></li>
+                                        <div class="clearfix"></div>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            
+            <h4>How it works:</h4>
+            <ul>
+                <li><strong>Automatic Detection:</strong> The system automatically detects the current page using <code>basename($_SERVER['PHP_SELF'], '.php')</code></li>
+                <li><strong>Active Class:</strong> When a menu item matches the current page, it gets the <code>active</code> class</li>
+                <li><strong>Red Background:</strong> Items with the <code>active</code> class get a red background (#dc3545)</li>
+                <li><strong>Enhanced Styling:</strong> Active items have bold text, rounded corners, and subtle shadows</li>
+                <li><strong>Hover Effects:</strong> Active items have enhanced hover effects with slight elevation</li>
+            </ul>
+            
+            <h4>Supported Pages:</h4>
+            <ul>
+                <li><strong>Home:</strong> index.php</li>
+                <li><strong>Tour Packages:</strong> package-list.php</li>
+                <li><strong>Privacy Policy:</strong> page.php?type=privacy</li>
+                <li><strong>Terms of Use:</strong> page.php?type=terms</li>
+                <li><strong>Corporate trip:</strong> corporate.php</li>
+                <li><strong>Contact Us:</strong> page.php?type=contact</li>
+                <li><strong>About:</strong> page.php?type=about us</li>
+                <li><strong>Enquiry:</strong> enquiry.php</li>
+                <li><strong>Profile:</strong> profile.php</li>
+                <li><strong>Change Password:</strong> change-password.php</li>
+                <li><strong>Tour History:</strong> tour-history.php</li>
+                <li><strong>Issue Tickets:</strong> issuetickets.php</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
