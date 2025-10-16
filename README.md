@@ -1,6 +1,6 @@
 # RongoJatra - Travel Booking Website
 
-<img src="images/home-page.png" alt="RongoJatra" width="500" height="300">
+<img src="images/Home_page.png" alt="RongoJatra" width="500" height="300">
 
 
 RongoJatra is a full stack travel booking website built using PHP, HTML, CSS, JavaScript, and MySQL. It allows users to book travel packages, create accounts, manage their profiles, reset passwords, ask questions, and more. Admin users have additional privileges to manage packages, view data, and interact with users.
@@ -32,8 +32,8 @@ RongoJatra is a full stack travel booking website built using PHP, HTML, CSS, Ja
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Mo-Shakib/CSE471-Project.git
-   cd CSE471-Project
+   git clone https://github.com/armin-sumon/RongoJatra.git
+   cd CSE 3522 -Project
 
 2. **Database Setup:**
 - Create a MySQL database named tripplanner.
@@ -44,7 +44,7 @@ RongoJatra is a full stack travel booking website built using PHP, HTML, CSS, Ja
 
 4. **Run the Project:**
 Start a local development server (e.g., using PHP's built-in server).
-Access the website in your browser: http://localhost:port/CSE471-Project.
+Access the website in your browser: http://localhost/RongoJatra.
 
 ## Usage
 
@@ -56,4 +56,4 @@ Access the website in your browser: http://localhost:port/CSE471-Project.
 
 
 
-_NB: This project was developed as part of the CSE471: System Design course at **UIU University**._
+_NB: This project was developed as part of the CSE3522: System Design course at **UIU University**.
