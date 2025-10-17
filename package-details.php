@@ -102,10 +102,7 @@ foreach($results as $result)
 		<?php if($result->PackageName == "Cox's Bazar") { ?>
 		<!-- Special image gallery for Cox's Bazar -->
 		<div class="image-gallery">
-			<h3>More Images of Cox's Bazar</h3>
 			<img src="images/1.jpg" alt="Cox's Bazar Image 1" class="img-responsive">
-			<img src="images/103.jpeg" alt="Cox's Bazar Image 2" class="img-responsive">
-			<img src="images/114.jpeg" alt="Cox's Bazar Image 3" class="img-responsive">
 		</div>
 		<?php } ?>
 		
@@ -210,7 +207,7 @@ foreach($results as $result)
                     </div>
                     
                     <div class="form-group">
-                        <label for="special_requests">Special Requests or Comments</label>
+                        <label for="special_requests">Give your other tourmates name:</label>
                         <textarea class="form-control" id="special_requests" name="special_requests" rows="3" placeholder="Any special requirements or comments..."></textarea>
                     </div>
                     
