@@ -26,10 +26,10 @@ $msg="Profile Updated Successfully";
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>TMS | Tourism Management System</title>
+<title>RongoJatra | RongoJatra Management System</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Tourism Management System In PHP" />
+<meta name="keywords" content="RongoJatra Management System In PHP" />
 <script type="applijewelleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
@@ -144,4 +144,5 @@ foreach($results as $result)
 <?php include('includes/write-us.php');?>
 </body>
 </html>
+
 <?php } ?>
